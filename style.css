@@ -1,0 +1,80 @@
+h1 {
+  color: #233142;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 50px;
+}
+
+body {
+  /* background: #fafafa; */
+  /*font-family:*/
+  color: #f48db4;
+  font-size: 20px ;
+  font-family: "Roboto", sans-serif;
+  line-height: 50px;
+  text-align: center;
+  background-image: url(./images/Ananas.png);
+}
+
+.img-circle {
+  border-radius: 20%;
+  border: 2px solid aqua;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+p {
+  color: #455d7a;
+}
+
+.container {
+  width: 1000px;
+  margin: 30px auto;
+}
+
+.card {
+  background: #dde0ab;
+  border: 2px solid aqua;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6);
+  margin-bottom: 30px;
+}
+
+.logo:hover {
+  scale: 1.2;
+  color: black;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
