@@ -20,6 +20,7 @@ body {
 .img-circle {
   border-radius: 20%;
   border: 2px solid aqua;
+  width: 200px;
 }
 
 .list-inline > li {
